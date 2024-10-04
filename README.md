@@ -41,3 +41,6 @@ wget -O vae-model.safetensors <vae-model-download-link> -P /home/studio-lab-user
 
 **If you want to download Stable Diffusion models, LoRA, and VAE directly while running  WebUI (Automatic1111) interface, you can do this through the provided Stable Diffusion Python** notebook name-- Runing-Downloader-Models. 
   
+##  Requirements Ngrock Token
+```bash
+https://ngrok.com/
