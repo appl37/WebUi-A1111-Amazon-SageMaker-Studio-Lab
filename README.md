@@ -6,8 +6,28 @@ This guide will help you set up Stable Diffusion in Amazon SageMaker Studio Lab,
 
 1. **Set Up the Environment**
    - Use the **terminal** to run all installation commands.
-   - Select the **`py310env`** kernel (Python 3.10 environment) before running the notebook.
-
+   # 1.1. Install and update Conda
+```bash
+conda install conda
+conda update conda
+```
+# 1.2. Create a Python 3.10 environment
+```bash
+conda create --name py310env python=3.10
+```
+# 1.3. Activate the newly created environment
+```bash
+conda activate py310env
+```
+# 1.4. Install ipykernel and set up the environment as a Jupyter kernel
+```bash
+pip install ipykernel
+python -m ipykernel install --user --name py310env --display-name "Python 3.10 (py310env)"
+```
+# 1.5. Verify Python 3.10 is active in the environment
+```bash
+python --version
+```
 2. **Running the Notebook**
    - After setting up the environment, run the Stable Diffusion Python notebook.
    - 🚫 **Do not install any Python packages via the terminal**. Install all necessary Python packages inside the Python notebook.
