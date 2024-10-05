@@ -3,7 +3,7 @@
 This guide will help you set up Stable Diffusion in Amazon SageMaker Studio Lab, with specific instructions to keep everything running smoothly.
 
 ## 🔧 Installation Steps
-
+# This all **Set Up the Environment** commands also given in Notebook
 1. **Set Up the Environment**
    - Use the **terminal** to run all installation commands.
    # 1.1. Install and update Conda
