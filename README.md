@@ -29,7 +29,7 @@ python -m ipykernel install --user --name py310env --display-name "Python 3.10 (
 python --version
 ```
 2. **Running the Notebook**
-   ![Alt Text](WebUi-A1111-Amazon-SageMaker-Studio-Lab/Image/1.jpg)
+   ![Alt Text](Image/1.jpg)
 
    - After setting up the environment, run the Stable Diffusion Python notebook.
    - 🚫 **Do not install any Python packages via the terminal**. Install all necessary Python packages inside the Python notebook.
