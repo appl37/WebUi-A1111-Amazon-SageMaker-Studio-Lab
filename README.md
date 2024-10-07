@@ -38,6 +38,21 @@ python --version
 
    ![Alt Text](Image/2.jpg)
 
+   - Select a Stable-Diffusion NoteBook and Click on Kernel
+     
+     ![Alt Text](Image/3.jpg)
+
+   - Click on Change Kernel
+  
+     ![Alt Text](Image/4.jpg)
+
+   - Select the .conda.py310env.Python Kernel
+  
+     ![Alt Text](Image/5.jpg)
+
+   - Makesure Kernel is selected
+  
+     ![Alt Text](Image/6.jpg)
    - After setting up the environment, run the Stable Diffusion Python notebook.
    - 🚫 **Do not install any Python packages via the terminal**. Install all necessary Python packages inside the Python notebook.
 
