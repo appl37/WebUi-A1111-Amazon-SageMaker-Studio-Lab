@@ -6,27 +6,28 @@ This guide will help you set up Stable Diffusion in Amazon SageMaker Studio Lab,
 # This all **Set Up the Environment** commands also given in Notebook
 1. **Set Up the Environment**
    - Use the **terminal** to run all installation commands.
-   # 1.1. Install and update Conda
-```bash
-conda install conda
-conda update conda
-```
-# 1.2. Create a Python 3.10 environment
+     
+# 1.1. Create a Python 3.10 environment
 ```bash
 conda create --name py310env python=3.10
 ```
-# 1.3. Activate the newly created environment
+# 1.2. Activate the newly created environment
 ```bash
 conda activate py310env
 ```
-# 1.4. Install ipykernel and set up the environment as a Jupyter kernel
+# 1.3. Install ipykernel and set up the environment as a Jupyter kernel
 ```bash
 pip install ipykernel
 python -m ipykernel install --user --name py310env --display-name "Python 3.10 (py310env)"
 ```
-# 1.5. Verify Python 3.10 is active in the environment
+# 1.4. Verify Python 3.10 is active in the environment
 ```bash
 python --version
+```
+# 1.5. Install and update Conda
+```bash
+conda install conda
+conda update conda
 ```
 2. **Running the Notebook**
 
@@ -50,7 +51,7 @@ python --version
   
      ![Alt Text](Image/5.jpg)
 
-   - Makesure Kernel is selected
+   - Makesure Right Kernel is selected
   
      ![Alt Text](Image/6.jpg)
    - After setting up the environment, run the Stable Diffusion Python notebook.
@@ -83,7 +84,7 @@ wget -O vae-model.safetensors <vae-model-download-link> -P /home/studio-lab-user
 ```
 ### 🔄 Downloading Models via the Python Notebook (WebUI Interface)
 
-**If you want to download Stable Diffusion models, LoRA, and VAE directly while running  WebUI (Automatic1111) interface, you can do this through the provided Stable Diffusion Python** notebook name-- Runing-Downloader-Models. 
+**If you want to download Stable Diffusion models, LoRA, and VAE directly while running  WebUI (Automatic1111) interface, you can do this through the provided Stable Diffusion Python** notebook name-- Runing_Downloader_Models. 
   
 ##  Requirements Ngrok Token
 ```bash
