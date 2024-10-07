@@ -29,7 +29,14 @@ python -m ipykernel install --user --name py310env --display-name "Python 3.10 (
 python --version
 ```
 2. **Running the Notebook**
+
+   - Click on Amazon SageMaker Studio Lab
+     
    ![Alt Text](Image/1.jpg)
+
+   - Click on Restart JupyterLab...
+
+   ![Alt Text](Image/2.jpg)
 
    - After setting up the environment, run the Stable Diffusion Python notebook.
    - 🚫 **Do not install any Python packages via the terminal**. Install all necessary Python packages inside the Python notebook.
