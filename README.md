@@ -29,10 +29,12 @@ python -m ipykernel install --user --name py310env --display-name "Python 3.10 (
 python --version
 ```
 2. **Running the Notebook**
+   ![Alt Text](WebUi-A1111-Amazon-SageMaker-Studio-Lab/Image/1.jpg)
+
    - After setting up the environment, run the Stable Diffusion Python notebook.
    - 🚫 **Do not install any Python packages via the terminal**. Install all necessary Python packages inside the Python notebook.
 
-3. **Downloading Models, LoRA, VAE, etc.**
+4. **Downloading Models, LoRA, VAE, etc.**
    - You can download models (Stable Diffusion, LoRA, VAE) using both the **terminal** and the **Python notebook**.
    - **However, all Python packages must be installed in the notebook**, not through the terminal.
 
