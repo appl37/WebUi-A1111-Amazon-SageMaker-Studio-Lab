@@ -26,8 +26,8 @@ python --version
 ```
 # 1.5. Install and update Conda
 ```bash
-conda install conda
-conda update conda
+conda install -c conda-forge libglib -y 
+conda update -n base conda -y
 ```
 2. **Running the Notebook**
 
