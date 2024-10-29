@@ -1,4 +1,5 @@
 # Stable Diffusion Setup in Amazon SageMaker Studio Lab
+ https://studiolab.sagemaker.aws/
 
 This guide will help you set up Stable Diffusion in Amazon SageMaker Studio Lab, with specific instructions to keep everything running smoothly.
 
